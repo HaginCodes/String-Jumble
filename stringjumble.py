@@ -36,4 +36,11 @@ Print = 1
 
 while Print< len(x):
     print(x[-Print],end=" ")
-    Print +=
+    Print += 1
+print(x[Print-len(x)])
+
+Print2 = 1
+
+while Print2 <= len(x):
+    print(x[Print2-1-len(x)][::-1], end=" ")
+    Print2 += 1
